@@ -42,8 +42,8 @@ function MultiStateSwitch(log, config) {
     	this.service[i] = new Service.StatefulProgrammableSwitch(this.name);
       	this.service[i]
         	.getCharacteristic(Characteristic.ProgrammableSwitchOutputState)
-        	.ProgrammableSwitchOutputState('get', this.getStatus.bind(this))
-        	.ProgrammableSwitchOutputState('set', this.setStatus.bind(this));
+        	.on('get', this.getStatus.bind(this))
+        	.on('set', this.setStatus.bind(this));
 
     }
     // // connect to MQTT broker
