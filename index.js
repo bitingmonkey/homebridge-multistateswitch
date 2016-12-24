@@ -36,7 +36,7 @@ function MultiStateSwitch(log, config) {
     this.switchStatus = Array(maxStatus);
     this.service = Array(maxStatus);
 
-    for (i=0; i<maxStatus; i++) {
+    for (var i=0; i<maxStatus; i++) {
     	this.switchStatus[i] = false;
 
     	this.service[i] = new Service.StatefulProgrammableSwitch(this.name);
