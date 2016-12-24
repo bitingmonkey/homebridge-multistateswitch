@@ -25,7 +25,6 @@
 'use strict';
 
 var Service, Characteristic;
-var mqtt = require("mqtt");
 
 var maxStatus = 1
 
