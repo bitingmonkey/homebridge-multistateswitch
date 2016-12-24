@@ -4,10 +4,10 @@
   "author": "Marco Pifferi",
   "description": "Multi switch",
   "license": "MIT",
-  "homepage": "https://github.com/chriszelazo/homebridge-switcheroo#readme",
+  "homepage": "https://github.com/bitingmonkey/homebridge-multistateswitch.git#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chriszelazo/homebridge-switcheroo.git"
+    "url": "git+https://github.com/bitingmonkey/homebridge-multistateswitch.git"
   },
   "keywords": [
     "homebridge-plugin",
@@ -21,6 +21,6 @@
   "dependencies": {
   },
   "bugs": {
-    "url": "https://github.com/chriszelazo/homebridge-switcheroo/issues"
+    "url": "https://github.com/bitingmonkey/homebridge-multistateswitch/issues"
   }
 }
