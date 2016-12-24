@@ -41,7 +41,7 @@ function MultiStateSwitch(log, config) {
 
     	this.service[i] = new Service.StatefulProgrammableSwitch(this.name);
       	this.service[i]
-        	.getCharacteristic(Characteristic.On)
+        	.getCharacteristic(Characteristic.ProgrammableSwitchOutputState)
         	.ProgrammableSwitchOutputState('get', this.getStatus.bind(this))
         	.ProgrammableSwitchOutputState('set', this.setStatus.bind(this));
 
